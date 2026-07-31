@@ -1,2 +1,3 @@
-# Computer-Science
-Computer Sciente at PUC minas
+# Computer Science
+
+Computer Science degree studies and projects at PUC minas.
