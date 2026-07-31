@@ -1,7 +1,5 @@
 # Algorithms and Data Structures I
 
-Repository containing exercises and implementations developed during the Algorithms and Data Structures I course.
-
 ## Topics
 
 - Basic programming concepts
