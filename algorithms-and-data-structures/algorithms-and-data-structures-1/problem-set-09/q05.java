@@ -75,4 +75,4 @@
 				System.out.printf("%d %d\n",e.getAndar(),e.getPessoasPresentes());
 			}
 		}
-hhhjj===	} s=
+	}
