@@ -1,5 +1,4 @@
 	#include<stdio.h>
-	#include<string.h>
 	struct Pessoa{
 		int idade;
 		char nome[50];
