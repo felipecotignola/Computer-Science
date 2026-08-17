@@ -8,6 +8,8 @@ for(int i=1;i<n;i++){
   vet[j+1]=temp;
 }
 
+/*
 Best when slightly unsorted
 stable
 in place
+*/
