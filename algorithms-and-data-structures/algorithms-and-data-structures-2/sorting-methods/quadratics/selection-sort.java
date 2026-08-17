@@ -8,6 +8,8 @@ for(int i=0;i<n-1;i++){
   swap(i,smallest);
 }
 
+/*
 best when majorly unsorted
 not stable
 in place
+*/
