@@ -12,4 +12,8 @@ for(int i=0;i<n-1;i++){
 best when majorly unsorted
 not stable
 in place
+does less swaps
+best case: n²
+medium case: n²
+worst case: n²
 */

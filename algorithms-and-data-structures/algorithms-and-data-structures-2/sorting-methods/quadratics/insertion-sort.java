@@ -9,7 +9,10 @@ for(int i=1;i<n;i++){
 }
 
 /*
-Best when slightly unsorted
+THE Best when slightly unsorted (becomes almost linear)
 stable
 in place
+best case: n
+medium case: n²
+worst case: n²
 */
