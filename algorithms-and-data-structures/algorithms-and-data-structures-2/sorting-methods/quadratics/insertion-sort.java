@@ -1,7 +1,7 @@
 for(int i=1;i<n;i++){
-  int temp=vet[i];
+  int key=vet[i];
   int j=i-1;
-  while((j>=0)&&(vet[j]>temp)){
+	while((j>=0)&&(key<vet[j])){
     vet[j+1]=vet[j];
     j--;
   }
