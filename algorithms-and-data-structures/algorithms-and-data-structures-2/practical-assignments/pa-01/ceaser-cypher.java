@@ -9,6 +9,10 @@
 	public class caeser-cypher{
 		public static void main(String[] args){
 			Scanner sc=new Scanner(System.in);
-				
+			String string=sc.nextLine();
+			while(string.charAt(0)!='F' && string.charAt(1)!='I' && string.charAt(2)!='M'){
+				System.out.printf("%s\n",cypher(string));
+				string=sc.nextLine();
+			}		
 		}
 	}
