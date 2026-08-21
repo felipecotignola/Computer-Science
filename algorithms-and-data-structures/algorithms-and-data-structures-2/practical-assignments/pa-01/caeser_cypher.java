@@ -1,13 +1,13 @@
 	import java.util.Scanner;
-	public String cypher(String string){
-		String string="";
-		for(int i=0;i<string.length();i++){
-			char c=(string.charAt(i))+3;
-			string+=c;
+	public class caeser_cypher{
+		public static String cypher(String string){
+			String s="";
+			for(int i=0;i<string.length();i++){
+				char c=(char)(string.charAt(i)+3);
+				s+=c;
+			}
+			return s;
 		}
-		return string;	
-	}
-	public class caeser-cypher{
 		public static void main(String[] args){
 			Scanner sc=new Scanner(System.in);
 			String string=sc.nextLine();
