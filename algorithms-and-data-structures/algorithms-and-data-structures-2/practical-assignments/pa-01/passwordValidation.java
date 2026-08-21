@@ -30,8 +30,8 @@
 	public class passwordValidation{
 		public static void main(String[] args){
 			Scanner sc=new Scanner(System.in);
-			String string=sc.next;
-			if(validation(string)){
+			String s=sc.next;
+			if(validation(s)){
 				System.out.printf("SIM\n");
 			}
 			else{
