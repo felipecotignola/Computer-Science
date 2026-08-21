@@ -1,8 +1,9 @@
 	import java.util.Scanner;
 	public String cypher(String string){
+		String string="";
 		for(int i=0;i<string.length();i++){
 			char c=(string.charAt(i))+3;
-			string.charAt(i)=c;
+			string+=c;
 		}
 		return string;	
 	}
