@@ -32,6 +32,7 @@
 			for(int i=0;i<26;i++){
 				if(vet1[i]!=vet2[i]){
 					return 0;
+				}
 			}
 			return 1;
 		}
